@@ -1,4 +1,4 @@
-# Workflow Organizer
+# PRWO — Psych Research Workflow Organizer
 
 Glue repo containing automations, checklists, and shared assets that keep the other labs in sync. Expect:
 
