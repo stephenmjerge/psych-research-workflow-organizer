@@ -28,7 +28,7 @@ STEPS = [
         "ROADMAP + README Sync",
         [
             (ROOT.parent / "reinforcement-learning-simulation" / "ROADMAP.md", "RL-Sim roadmap exists"),
-            (ROOT.parent / "workflow-organizer" / "ROADMAP.md", "Workflow Organizer roadmap exists"),
+            (ROOT.parent / "psych-research-workflow-organizer" / "ROADMAP.md", "Workflow Organizer roadmap exists"),
         ],
     ),
     (
