@@ -6,4 +6,4 @@
 
 **Status legend**: Planning, Drafting, Internal Review, Submitted, Accepted, Published.
 
-When adding a row, include the LAUNCHPAD task or issue ID so we can cross-reference.
+When adding a row, include the `meta/launchpad` task or issue ID so we can cross-reference.

@@ -11,9 +11,10 @@ from __future__ import annotations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-LAUNCHPAD = ROOT.parent / "LAUNCHPAD"
-PORTFOLIO = ROOT.parent / "PortfolioHub.md"
-TIMELINE = ROOT.parent / "MASTER_TIMELINE.md"
+LAB_ROOT = ROOT.parent.parent
+LAUNCHPAD = LAB_ROOT / "meta" / "launchpad"
+PORTFOLIO = LAB_ROOT / "docs" / "PortfolioHub.md"
+TIMELINE = LAB_ROOT / "meta" / "MASTER_TIMELINE.md"
 
 STEPS = [
     (
