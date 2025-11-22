@@ -11,7 +11,7 @@ Glue repo containing automations, checklists, and shared assets that keep the ot
 1. Read `ROADMAP.md` to see which coordination task is active.
 2. Run the checklist script before every publish:
    ```bash
-   python scripts/run_cross_repo_checklist.py
+   python scripts/run_cross_repo_checklist.py --outdir outputs/checklist
    ```
    It highlights whether `meta/launchpad`, `docs/PortfolioHub.md`, or any repo roadmap is missing before you commit.
 3. Run `python scripts/doctor.py` to verify Python version, required files, and writable `outputs/`.

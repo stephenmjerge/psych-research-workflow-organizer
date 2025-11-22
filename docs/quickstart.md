@@ -2,7 +2,7 @@
 
 ## 1) Run the checklist (dry run)
 ```bash
-python scripts/run_cross_repo_checklist.py
+python scripts/run_cross_repo_checklist.py --outdir outputs/checklist
 ```
 Shows which files (PortfolioHub, MASTER_TIMELINE, roadmaps) need updates. No edits are made.
 
