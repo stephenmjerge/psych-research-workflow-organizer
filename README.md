@@ -1,4 +1,5 @@
 # PRWO — Psych Research Workflow Organizer
+[![Release](https://img.shields.io/github/v/release/stephenmjerge/psych-research-workflow-organizer)](https://github.com/stephenmjerge/psych-research-workflow-organizer/releases/latest)
 
 Glue repo containing automations, checklists, and shared assets that keep the other labs in sync. Expect:
 
