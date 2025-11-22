@@ -7,13 +7,15 @@ Glue repo containing automations, checklists, and shared assets that keep the ot
 - Cross-repo helpers (e.g., shared GitHub Actions, data schemas).
 
 ## Quickstart
+**TL;DR:** `python scripts/run_cross_repo_checklist.py` (dry run) and `python scripts/doctor.py` (env check)
 1. Read `ROADMAP.md` to see which coordination task is active.
 2. Run the checklist script before every publish:
    ```bash
    python scripts/run_cross_repo_checklist.py
    ```
    It highlights whether `meta/launchpad`, `docs/PortfolioHub.md`, or any repo roadmap is missing before you commit.
-3. Work through `checklists/cross-repo-update.md` to capture the manual steps (update PortfolioHub, MASTER_TIMELINE, etc.).
+3. Run `python scripts/doctor.py` to verify Python version, required files, and writable `outputs/`.
+4. Work through `checklists/cross-repo-update.md` to capture the manual steps (update PortfolioHub, MASTER_TIMELINE, etc.).
 
 Use `meta/launchpad` for day-to-day tasks; this repo is the glue that keeps those files aligned across every project.
 
